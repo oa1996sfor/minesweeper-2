@@ -1,0 +1,68 @@
+.board-container{
+    text-align: center;
+    margin-left: auto;
+    padding: 20px;
+
+
+}
+
+.buttonContainer{
+    text-align: center;
+    margin-left: auto;
+    padding: 20px;
+}
+.gameButton{
+  border-radius: 20px;  
+}
+.gameButton:hover{
+   cursor: pointer;
+}
+
+.difficulty:hover{
+    cursor: pointer;
+}
+
+table{
+    text-align: center;
+    margin: auto;
+
+}
+
+.levelSelector{
+    text-align: center;
+    margin-left: auto;
+
+
+}
+.board td {
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    margin-left: 50%;
+    margin-right: 50%;
+    border-radius: 5px;
+    background-color: gray;
+}
+
+.board td:hover {
+    background-color: gainsboro;
+    cursor: pointer;
+}
+
+.score{
+text-align: center;
+padding: 10px;
+background-color: orange;
+
+}
+
+.timer{
+    text-align: center;
+    padding: 10px;
+background-color: orangered;
+
+}
+
+.lives{
+    padding: 10px;
+}
