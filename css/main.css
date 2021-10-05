@@ -1,8 +1,12 @@
+body  {
+    background: url(/mineBack.jpg)  center center fixed;
+ 
+  }
 .board-container{
     text-align: center;
     margin-left: auto;
     padding: 20px;
-
+  
 
 }
 
@@ -13,14 +17,25 @@
 }
 .gameButton{
   border-radius: 20px;  
+  font-size: 20px;
+  background-color: transparent;
+  border: none;
 }
 .gameButton:hover{
    cursor: pointer;
+   background-color: turquoise;
+}
+
+.difficulty{
+    border-radius: 20px;
+    font-family: Cursive;
 }
 
 .difficulty:hover{
     cursor: pointer;
+    background-color: yellowgreen;
 }
+
 
 table{
     text-align: center;
@@ -31,7 +46,8 @@ table{
 .levelSelector{
     text-align: center;
     margin-left: auto;
-
+    color: yellowgreen;
+    font-family: Cursive;
 
 }
 .board td {
@@ -49,18 +65,128 @@ table{
     cursor: pointer;
 }
 
-.score{
+.hints{
 text-align: center;
+margin-top: 20px;
 padding: 10px;
-background-color: orange;
 
+
+}
+
+.tooltiptext{
+    position: relative;
+    display: inline-block;
+    visibility: hidden;
+    font-size: 12px;
+    font-family:Cursive ;
+    width: 100px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+.tooltiptext1{
+    position: relative;
+    display: inline-block;
+    visibility: hidden;
+    font-size: 12px;
+    font-family:Cursive ;
+    width: 100px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltiptext2{
+    position: relative;
+    display: inline-block;
+    visibility: hidden;
+    font-size: 12px;
+    font-family:Cursive ;
+    width: 100px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+
+.hintButton{
+    background-color: transparent;
+    font-size: 20px;
+    border:none;
+    outline: none;
+    cursor: pointer;
+}
+
+.hintButton:hover .tooltiptext {
+    visibility: visible;
+  }
+
+  .safeButton{
+    background-color: transparent;
+    font-size: 20px;
+    border:none;
+    outline: none;
+    cursor: pointer;
+  }
+.safeButton:hover .tooltiptext1 {
+    visibility: visible;
+  }
+.manual{
+    background-color: transparent;
+    font-size: 25px;
+    border:none;
+    outline: none;
+    cursor: pointer;
+}
+
+.manual:hover .tooltiptext2{
+    visibility: visible; 
+}
+
+.boom7{
+    background-color: transparent;
+    font-size: 25px;
+    border:none;
+    outline: none;
+    cursor: pointer;
+}
+
+.boom7:hover .tooltiptext2{
+    visibility: visible; 
 }
 
 .timer{
     text-align: center;
     padding: 10px;
+    margin-top: 10px;
 background-color: orangered;
+font-family: Cursive;
 
+}
+.score{
+    text-align: center;
+    padding: 10px;
+    margin-top: 5px;
+background-color: aquamarine;
+font-family: Cursive;
 }
 
 .lives{
