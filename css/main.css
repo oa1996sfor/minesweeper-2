@@ -137,6 +137,7 @@ padding: 10px;
 
 .hintButton:hover .tooltiptext {
     visibility: visible;
+    font-size: 25px;
   }
 
   .safeButton{
@@ -148,6 +149,7 @@ padding: 10px;
   }
 .safeButton:hover .tooltiptext1 {
     visibility: visible;
+    font-size: 25px;
   }
 .manual{
     background-color: transparent;
@@ -158,7 +160,8 @@ padding: 10px;
 }
 
 .manual:hover .tooltiptext2{
-    visibility: visible; 
+    visibility: visible;
+    font-size: 25px;
 }
 
 .boom7{
@@ -170,7 +173,8 @@ padding: 10px;
 }
 
 .boom7:hover .tooltiptext2{
-    visibility: visible; 
+    visibility: visible;
+    font-size: 25px;
 }
 
 .timer{
